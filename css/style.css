@@ -28,6 +28,7 @@ body {
 	font-size: 28px;
 	justify-content: center;
 	padding-bottom: 180px;
+	text-align: center;
 
 	@media (min-width: 576px) {
 		font-size: 34px;
