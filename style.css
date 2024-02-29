@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+Bubbles:regular);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: #c12969;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	font-family: 'Rubik Bubbles';
+}
+
+.text {
+	text-transform: uppercase;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	letter-spacing: 0.1rem;
+
+	@media (min-width: 576px) {
+		font-size: 28px;
+	}
+}
