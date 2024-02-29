@@ -20,15 +20,18 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	display: flex;
-	justify-content: center;
+
 	align-items: center;
 	flex-direction: column;
 	gap: 2rem;
 	letter-spacing: 0.1rem;
-	font-size: 20px;
+	font-size: 28px;
+	justify-content: center;
+	padding-bottom: 180px;
 
 	@media (min-width: 576px) {
-		font-size: 28px;
+		font-size: 34px;
+		padding-bottom: 0;
 	}
 
 	& img {
